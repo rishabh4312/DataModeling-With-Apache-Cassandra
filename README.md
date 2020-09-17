@@ -6,10 +6,10 @@ In this project, I have performed data modeling with Apache Cassandra and comple
 
 ## Data Source: Event Data files
 For this project, there is one dataset: event_data. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
-
+```csv
 event_data/2018-11-08-events.csv
 event_data/2018-11-09-events.csv
-
+```
 - The files within this directory will be processed creating a single csv file
 - The ouput event data file will contain all data
 
