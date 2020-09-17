@@ -25,6 +25,6 @@ There are 3 tables created in apache cassandra keyspace 'Sparkify' for the purpo
 - app_history
 
 # Conclusion:
-The whole etl pipeling will process the event data stored as csv file formats to inject into the Apache Cassandra tables. The tables are designed and created to serve specific queries.
+The whole etl pipeline will process the event data stored as csv file formats to inject into the Apache Cassandra tables. The tables are designed and created to serve specific queries.
 
 
