@@ -18,6 +18,13 @@ There are two parts in this project:
 * 1. To build an etl pipeline for processing the event data csv files
 * 2. To model the database based upon the queries 
 
-### Part I.
+## Data Sink:
+There are 3 tables created in apache cassandra keyspace 'Sparkify' for the purpose of specific queries:
+- session_songs
+- user_songs
+- app_history
+
+# Conclusion:
+The whole etl pipeling will process the event data stored as csv file formats to inject into the Apache Cassandra tables. The tables are designed and created to serve specific queries.
 
 
