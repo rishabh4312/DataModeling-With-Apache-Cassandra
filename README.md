@@ -12,7 +12,7 @@ event_data/2018-11-09-events.csv
 ```
 - The files within this directory will be processed creating a single csv file
 - The ouput event data file will contain all data
-![fs](Screenshot-event_datafile_new.csv)
+![eventData](Screenshot-event_datafile_new.png)
 ## Project Parts:
 There are two parts in this project:
 * 1. To build an etl pipeline for processing the event data csv files
