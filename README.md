@@ -4,3 +4,20 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 
 In this project, I have performed data modeling with Apache Cassandra and completed an ETL pipeline using Python. To complete the project, I will need to model the data by creating tables in Apache Cassandra to run queries and The ETL pipeline that transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.
 
+## Data Source: Event Data files
+For this project, there is one dataset: event_data. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
+
+event_data/2018-11-08-events.csv
+event_data/2018-11-09-events.csv
+
+- The files within this directory will be processed creating a single csv file
+- The ouput event data file will contain all data
+
+## Project Parts:
+There are two parts in this project:
+* 1. To build an etl pipeline for processing the event data csv files
+* 2. To model the database based upon the queries 
+
+### Part I.
+
+
